@@ -78,6 +78,8 @@ The password strength checks are customizable, and you could extend the function
 
 9. Password Reset Systems: Ensures new passwords are strong when users reset their passwords.
 
+**Glimpes of output**
+
 ![image](https://github.com/user-attachments/assets/115290cf-23b2-4496-b12e-ada634002a8e)
 
 ![image](https://github.com/user-attachments/assets/2d8b8ec3-fd77-4f19-8072-cebf98584f50)
