@@ -31,7 +31,7 @@ The primary objective of this project is to create a Password Strength Checker t
    - There is a button that allows the user to toggle the visibility of the password. This button switches between showing and hiding the password when clicked.
 
  - Password Strength Check:
-     A button triggers a function that evaluates the entered password for the following criteria:
+     - A button triggers a function that evaluates the entered password for the following criteria:
      Minimum length of 10 characters.
      At least one lowercase letter.
      At least one uppercase letter.
@@ -39,7 +39,7 @@ The primary objective of this project is to create a Password Strength Checker t
      At least one special character (e.g., !, @, #, $, etc.).
 
  - Feedback on Password Strength:
-    The application provides real-time feedback on the password's strength. If the password does not meet one or more of the required criteria, a message will be displayed with the corresponding issue in red text.
+    - The application provides real-time feedback on the password's strength. If the password does not meet one or more of the required criteria, a message will be displayed with the corresponding issue in red text.
     If the password meets all the requirements, a message indicating the password is strong is displayed in green text.
 
 ---
