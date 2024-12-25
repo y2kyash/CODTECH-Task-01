@@ -1,0 +1,79 @@
+/*PASSWORD STRENGTH CHECKER*/
+
+
+import tkinter as tk
+import re
+
+def var_password_strength():
+    password = password_entry.get()
+
+    # Regular expressions for different password strength criteria
+    lower_case = re.compile(r'[a-z]')
+    upper_case = re.compile(r'[A-Z]')
+    digits = re.compile(r'[0-9]')
+    special_chars = re.compile(r'[!@#$%^&*(),.?":{}|<>~`\[\];]')
+
+    # Defining the requirement of password length
+    min_length = 10
+
+    # Checking each strength criteria 
+    if len(password) < min_length:
+        strength_label.config(text=f"Password is too short. Minimum length should be {min_length} characters.", fg="red")
+        return
+    if not lower_case.search(password):
+        strength_label.config(text="Password must contain at least one lowercase letter.", fg="red")
+        return
+    if not upper_case.search(password):
+        strength_label.config(text="Password must contain at least one uppercase letter.", fg="red")
+        return
+    if not digits.search(password):
+        strength_label.config(text="Password must contain at least one digit.", fg="red")
+        return
+    if not special_chars.search(password):
+        strength_label.config(text="Password must contain at least one special character.", fg="red")
+        return
+    
+    # if all criteria are met successfully, password is considered strong 
+    strength_label.config(text="Password is strong.", fg="green")
+
+def toggle_password_visibility():
+    if password_entry.cget('show') == '*':
+        password_entry.config(show='')
+        toggle_button.config(text="Hide Password")
+    else:
+        password_entry.config(show='*')
+        toggle_button.config(text="Show Password")
+
+# Creating the main application window
+root = tk.Tk()
+root.title("Password Strength Checker")
+root.geometry("600x400")
+
+
+# Password entry field
+password_label = tk.Label(root, text="Enter the password:")
+password_label.pack()
+password_entry = tk.Entry(root, show="*")  
+password_entry.pack()
+
+# Button to toggle password visibility
+toggle_button = tk.Button(root, text="Show Password", command=toggle_password_visibility, fg="blue")
+toggle_button.pack(pady=5)
+
+# Button to check password strength
+check_button = tk.Button(root, text="Check Strength", command=var_password_strength)
+check_button.pack(pady=5)
+
+# Label to display password strength
+strength_label = tk.Label(root, text="", fg="black")
+strength_label.pack(pady=5)
+
+# Run the application
+root.mainloop()
+
+        
+
+    
+
+
+    
