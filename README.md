@@ -17,6 +17,7 @@
 # Project: Password Strength Checker
 
 **Objective**
+
 The primary objective of this project is to create a Password Strength Checker that helps users assess and improve the security of their passwords. By evaluating a password based on established security criteria, the tool educates users on creating stronger passwords and highlights potential weaknesses. This encourages better security practices, reducing the likelihood of security breaches due to weak passwords.
 
 **Key Features**
@@ -49,6 +50,7 @@ The user can toggle between showing and hiding the password using the "Show Pass
 **Components Used**
 
 Tkinter: For creating the window, labels, buttons, and text fields for the GUI.
+
 Regular Expressions (re module): To define patterns for checking the presence of lowercase letters, uppercase letters, digits, and special characters in the password.
 
 **Additional Notes**
@@ -58,32 +60,24 @@ The password strength checks are customizable, and you could extend the function
 
 **Applications of project**
 
-1. User Registration Systems
-Ensures users create strong passwords during account registration.
+1. User Registration Systems: Ensures users create strong passwords during account registration.
 
-2. Password Management Tools
- Assesses password strength before storing passwords in password managers.
+2. Password Management Tools: Assesses password strength before storing passwords in password managers.
+ 
+3. Corporate Security Systems: Ensures employees create secure passwords that comply with company security policies.
 
-3. Corporate Security Systems
-Ensures employees create secure passwords that comply with company security policies.
+4. Security Auditing Tools: Evaluates password strength during security scans to highlight vulnerabilities.
 
-4. Security Auditing Tools
-Evaluates password strength during security scans to highlight vulnerabilities.
+5. Multi-Factor Authentication (MFA) Systems: Verifies password strength as part of the first authentication step in MFA systems.
 
-5. Multi-Factor Authentication (MFA) Systems
-Verifies password strength as part of the first authentication step in MFA systems.
+6. E-commerce Platforms: Promotes secure password choices during account creation or password reset on e-commerce websites.
 
-6. E-commerce Platforms
-Promotes secure password choices during account creation or password reset on e-commerce websites.
+7. Mobile Application Security: Validates password strength during sign-up or password reset in mobile apps.
 
-7. Mobile Application Security
-Validates password strength during sign-up or password reset in mobile apps.
+8. Web Development Frameworks: Integrates password strength checker into registration or login forms in web applications.
 
-8. Web Development Frameworks
-Integrates password strength checker into registration or login forms in web applications.
+9. Password Reset Systems: Ensures new passwords are strong when users reset their passwords.
 
-9. Password Reset Systems
-Ensures new passwords are strong when users reset their passwords.
 
 
 
