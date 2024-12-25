@@ -1,10 +1,15 @@
 # CODTECH-Task-01
 
 **Name:** SHASHANK SATISH MISHRA
+
 **Company:** CODTECH IT SOLUTIONS PVT. LTD
+
 **ID:** CT0806DB
+
 **Domain:** CYBER SECURITY AND ETHICAL HACKING
+
 **Duration:** 3 WEEKS
+
 **Mentor:** NEELA SANTOSH KUMAR
 
 **Overview of the project**
@@ -15,6 +20,7 @@
 The primary objective of this project is to create a Password Strength Checker that helps users assess and improve the security of their passwords. By evaluating a password based on established security criteria, the tool educates users on creating stronger passwords and highlights potential weaknesses. This encourages better security practices, reducing the likelihood of security breaches due to weak passwords.
 
 **Key Features**
+
 Password Input Field:
 
 A user can enter a password in a text field that hides the password as it is typed (using the * symbol).
@@ -42,10 +48,12 @@ Based on the outcome of the checks, an appropriate message is displayed, indicat
 The user can toggle between showing and hiding the password using the "Show Password" / "Hide Password" button.
 
 **Components Used**
+
 Tkinter: For creating the window, labels, buttons, and text fields for the GUI.
 Regular Expressions (re module): To define patterns for checking the presence of lowercase letters, uppercase letters, digits, and special characters in the password.
 
 **Additional Notes**
+
 The project is intended to help users choose strong passwords, which are essential for ensuring account security.
 The password strength checks are customizable, and you could extend the functionality by adding more rules or adjusting the existing ones as needed.
 
